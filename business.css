@@ -118,15 +118,13 @@ list-style-type: none;
 	color:rgba(193,54,68,0.92);
     border:none;
 }
-.order-list1,.order-list2
-{
-  display:flex;
-}
 .order-list1
 {
-	margin-top:10px;
+  display:flex;
+	font-size:14px;
 }
-.order-list-z,.order-list-y,.order-list-z2,.order-list-y2
+
+.order-list-z,.order-list-y
 {
 	flex:1 2 50%;
 	display:flex;
@@ -142,17 +140,44 @@ list-style-type: none;
 {
 	font-size:12px;
 	height:38px;
-	width:74px;
+	width:70px;
     border:none;
 	margin-right:10px;
+	background-color:rgba(170,113,196,0.13);
 }
 .order button:hover
 {
 	font-size:13px;
-	background-color:rgba(21,18,52,0.3);
+	background-color: rgba(17,27,40,0.24);
 	color:white;
 }
-
+.order-in,.order-on
+{
+	display:flex;
+	font-size:14px;
+}
+.order-on
+{
+	margin-top:-20px;
+}
+.orderin1,.orderin2,.orderin3
+{
+	flex:1 1 33%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.orderon1,.orderon2,.orderon3
+{
+	flex:1 1 33%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.orderon3
+{
+	margin-top:-30px;
+}
 .business-li
 {
 	display:flex;
