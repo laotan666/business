@@ -143,21 +143,24 @@ list-style-type: none;
 {
 	font-size:12px;
 	height:32px;
-	width:65px;
+	width:auto;
     border:none;
 	margin-right:10px;
 	color:white;
-	border-radius: 25%;
+	border-radius: 20%;
 }
 .orderon3 button
 {
 	background-color:#f75a57;
 }
-.order-list-y button
+.recive
 {
-	background-color:#f49636;
+	background-color:#7ade53;
 }
-
+.object
+{
+	background-color:#f75a57;
+}
 .order button:hover,.orderon3 button:hover
 {
 	font-size:13px;
@@ -211,15 +214,17 @@ list-style-type: none;
 	text-decoration: none;
 }
 .t1{
-	flex:1 1 8%;
+	flex:1 1 5%;
 	padding-top:7px;
+	display:flex;
+	justify-content: flex-start;
 }
 .t2{
-	flex:1 1 82%;
+	flex:1 1 88%;
 	padding-top:8px;
 }
 .t3{
-	flex:1 1 10%;
+	flex: 1 1 7%;
 	padding-top:7px;
 	text-align: end;
 }
