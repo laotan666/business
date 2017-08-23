@@ -16,51 +16,52 @@ html
 	flex-direction: row;
 	background-color:dodgerblue;
 	color:white;
-	padding-left:15%;
 	height:100px;
 }
 
 .inbody1-1
 {
-flex:1 2 40%;
-text-align: center;
-margin-left:-30px;
+    flex:1 2 35%;
+    display:flex;
+	align-items: center;
+	justify-content: flex-end;
+
 }
 .inbody1-1 img
 {
-	padding-top:10px;
+	padding-top:5px;
 	width:80px;
 	height:80px;
 	border-radius: 200%;
 }
 .inbody1-2
 {
-	flex:1 2 40%;
+	flex:1 2 60%;
 	display:flex;
 	align-items: center;
-	justify-content: flex-start;
-	margin-left:-30px;
+    justify-content: flex-start;
 	margin-top:-10px;
 }
 .inbody1-3
 {
-	flex:1 1 20%;
-	display:flex;
-    align-items: center;
-	justify-content: flex-start;
+	flex: 1 1 5%;
+	display: flex;
+	align-items: center;
 }
 .inbody1-3 button
 {
-	background-color:rgba(117,181,160,1.00);
+	background-color:#7ade53;
 	color:white;
-	font-size:14px;
+	font-size:12px;
 	font-weight:800;
+	border-radius: 10%;
+	width:28px;
+	height:auto;
 	border:none;
-	width:75px;
-	height:35px;
+	padding-right:3px;
 }
 .inbody1-3 button:hover{
-	font-size:15px;
+	font-size:13px;
 }
 .inbody1-2 li
 {
@@ -79,15 +80,17 @@ margin-left:-30px;
 	justify-content: center;
 	align-items: center;
 	border-bottom:1px solid rgba(107,83,156,0.22);
-	height:60px;
+	height:50px;
 	color:rgba(193,54,68,0.92);
 }
-.order-info span{
-	font-size:16px;
+.order-info span
+{
+	font-size:15px;
 	width:80px;
 }
 .order-ing
 {
+	font-size:15px;
     display:flex;
 	flex-direction: row;
 	border-bottom:1px solid rgba(107,83,156,0.22);
@@ -114,7 +117,7 @@ list-style-type: none;
 }
 .order-dcl a:hover,.order-jxz a:hover,.order-ywc a:hover
 {
-	background-color:rgba(77,63,147,0.16);
+	background-color:rgb(230,230,230);
 	color:rgba(193,54,68,0.92);
     border:none;
 }
@@ -136,21 +139,30 @@ list-style-type: none;
 {
 	text-decoration: none;
 }
-.order button
+.order-list-y button,.orderon3 button
 {
 	font-size:12px;
-	height:38px;
-	width:70px;
+	height:32px;
+	width:65px;
     border:none;
 	margin-right:10px;
-	background-color:rgb(243,243,243);
+	color:white;
+	border-radius: 25%;
 }
-.order button:hover
+.orderon3 button
+{
+	background-color:#f75a57;
+}
+.order-list-y button
+{
+	background-color:#f49636;
+}
+
+.order button:hover,.orderon3 button:hover
 {
 	font-size:13px;
-	background-color: rgba(17,27,40,0.24);
-	color:white;
 }
+
 .order-in,.order-on
 {
 	display:flex;
@@ -199,11 +211,11 @@ list-style-type: none;
 	text-decoration: none;
 }
 .t1{
-	flex:1 1 2%;
+	flex:1 1 8%;
 	padding-top:7px;
 }
 .t2{
-	flex:1 1 88%;
+	flex:1 1 82%;
 	padding-top:8px;
 }
 .t3{
