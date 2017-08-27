@@ -18,16 +18,36 @@ html
 	color:white;
 	height:100px;
 }
-
 .inbody1-1
 {
     flex:1 2 35%;
     display:flex;
-	align-items: center;
-	justify-content: flex-end;
+}
+.return,.photo
+{
+	flex:1 1 auto;
 
 }
-.inbody1-1 img
+.return
+{
+	display:flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.photo
+{
+	display:flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+.fanhui
+{
+	width:30px;
+	height:30px;
+
+}
+.tuoxiang
 {
 	padding-top:5px;
 	width:80px;
@@ -36,15 +56,14 @@ html
 }
 .inbody1-2
 {
-	flex:1 2 60%;
+	flex:1 1 60%;
 	display:flex;
 	align-items: center;
-    justify-content: flex-start;
-	margin-top:-10px;
+	
 }
 .inbody1-3
 {
-	flex: 1 1 5%;
+	flex: 1 2 5%;
 	display: flex;
 	align-items: center;
 }
@@ -52,16 +71,16 @@ html
 {
 	background-color:#7ade53;
 	color:white;
-	font-size:12px;
+	font-size:10px;
 	font-weight:800;
 	border-radius: 10%;
-	width:28px;
-	height:auto;
+	width:62px;
+	height:30px;
 	border:none;
 	padding-right:3px;
 }
 .inbody1-3 button:hover{
-	font-size:13px;
+	font-size:12px;
 }
 .inbody1-2 li
 {
@@ -71,7 +90,7 @@ html
 }
 .order
 {
-	height:400px;
+	height:auto;                                                /*修改1*/
 	border-bottom:1px solid rgba(107,83,156,0.22);
 }
 .order-info
@@ -95,7 +114,6 @@ html
 	flex-direction: row;
 	border-bottom:1px solid rgba(107,83,156,0.22);
 }
-
 .order-ing li
 {
 list-style-type: none;
@@ -121,10 +139,19 @@ list-style-type: none;
 	color:rgba(193,54,68,0.92);
     border:none;
 }
+.order-list                                                     /*修改4*/
+{
+	overflow: scroll;
+	height:250px;
+	overflow-x: hidden;
+
+}
+
 .order-list1
 {
-  display:flex;
+    display:flex;
 	font-size:14px;
+	margin:5px 0;
 }
 
 .order-list-z,.order-list-y
@@ -143,7 +170,7 @@ list-style-type: none;
 {
 	font-size:12px;
 	height:32px;
-	width:auto;
+	width:auto;                                              /*修改1*/
     border:none;
 	margin-right:10px;
 	color:white;
@@ -152,6 +179,7 @@ list-style-type: none;
 .orderon3 button
 {
 	background-color:#f75a57;
+
 }
 .recive
 {
@@ -164,6 +192,7 @@ list-style-type: none;
 .order button:hover,.orderon3 button:hover
 {
 	font-size:13px;
+	border:none;                                                 /*修改2*/
 }
 
 .order-in,.order-on
@@ -205,7 +234,6 @@ list-style-type: none;
 	text-decoration: none;
 	display:block;
 	color:black;
-
 }
 .business-a:hover
 {
@@ -219,12 +247,13 @@ list-style-type: none;
 	display:flex;
 	justify-content: flex-start;
 }
-.t2{
-	flex:1 1 88%;
-	padding-top:8px;
+.add
+{
+margin-left:2%;                                          /*修改3*/
 }
+
 .t3{
-	flex: 1 1 7%;
+	flex: 1 1 auto;
 	padding-top:7px;
 	text-align: end;
 }
