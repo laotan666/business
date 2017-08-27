@@ -39,13 +39,11 @@ html
 {
 	display:flex;
 	align-items: center;
-	justify-content:flex-end;
 }
 .fanhui
 {
-	width:30px;
-	height:30px;
-
+	width:25px;
+	height:25px;
 }
 .tuoxiang
 {
@@ -53,6 +51,7 @@ html
 	width:80px;
 	height:80px;
 	border-radius: 200%;
+	margin-left:40px;
 }
 .inbody1-2
 {
