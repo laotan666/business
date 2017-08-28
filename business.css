@@ -31,8 +31,17 @@ html
 .return
 {
 	display:flex;
-	align-items: flex-start;
+	margin-top:5px;                                   /*change*/
 	justify-content: flex-start;
+}
+.return span                                       /*add*/
+{
+	font-size:16px;
+	color:white;
+}
+.return a:hover                               /*add*/
+{
+	font-size:18px;
 }
 
 .photo
@@ -89,7 +98,7 @@ html
 }
 .order
 {
-	height:auto;                                                /*修改1*/
+	height:auto;
 	border-bottom:1px solid rgba(107,83,156,0.22);
 }
 .order-info
@@ -138,7 +147,7 @@ list-style-type: none;
 	color:rgba(193,54,68,0.92);
     border:none;
 }
-.order-list                                                     /*修改4*/
+.order-list
 {
 	overflow: scroll;
 	height:250px;
@@ -169,7 +178,7 @@ list-style-type: none;
 {
 	font-size:12px;
 	height:32px;
-	width:auto;                                              /*修改1*/
+	width:auto;
     border:none;
 	margin-right:10px;
 	color:white;
@@ -191,7 +200,7 @@ list-style-type: none;
 .order button:hover,.orderon3 button:hover
 {
 	font-size:13px;
-	border:none;                                                 /*修改2*/
+	border:none;
 }
 
 .order-in,.order-on
@@ -199,20 +208,27 @@ list-style-type: none;
 	display:flex;
 	font-size:14px;
 }
-.order-on
+.order-on                                      /*change*/
 {
-	margin-top:-15px;
+	margin-top:-10px;
 }
-.orderin1,.orderin2,.orderin3
+.orderin1,.orderin2                            /*change*/
 {
-	flex:1 1 33%;
+	flex:1 1 30%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 }
-.orderon1,.orderon2,.orderon3
+.orderon1,.orderon2                        /*change*/
 {
-	flex:1 1 33%;
+	flex:1 1 30%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.orderon3,.orderin3                        /*change*/
+{
+	flex:1 1 40%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
