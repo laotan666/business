@@ -184,10 +184,13 @@ list-style-type: none;
 	color:white;
 	border-radius: 20%;
 }
-.orderon3 button
+.button2                                               /*change*/
 {
 	background-color:#f75a57;
-
+}
+.button1                                                /*change*/
+{
+	background-color:#7ade53;
 }
 .recive
 {
